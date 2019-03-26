@@ -7,6 +7,9 @@ function makeBuffer() {
             return line;
         }  
     }
+    buffer.clear = function(){
+        line = ""
+    }
     return buffer;
 }
 
